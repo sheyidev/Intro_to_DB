@@ -1,11 +1,10 @@
 ## Write a simple python script that creates the database alx_book_store in your MySQL server.
 
 - Name of python script should be MySQLServer.py
-
-- If the database alx_book_store already exists, your script should not fail
+f the database alx_book_store already exists, your script should not fail
 - You are not allowed to use the SELECT or SHOW statements
 
-
+```md
 NOTE :
 
 - Required to print message such as Database 'alx_book_store' created successfully! when database is successfully created.
@@ -18,3 +17,7 @@ Repo:
 
 GitHub repository: Intro_to_DB
 File: MySQLServer.py
+
+```
+
+- I
