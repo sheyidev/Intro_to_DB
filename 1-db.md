@@ -21,7 +21,11 @@ This section aims provide a comprehensive understanding of what a database is, i
 ## Databases
 A database is an organized collection of data that is stored and managed in a way that allows efficient retrieval, manipulation, and maintenance of information.
 
-Databases are essential components of modern information systems, enabling efficient storage, organization, and retrieval of data. They serve as centralized repositories for managing and manipulating data used by applications, organizations, or individuals. Understanding the concept of a database is crucial for anyone working with data-driven applications or systems.
+Databases are essential components of modern information systems, enabling efficient storage, organization, and retrieval of data. 
+
+They serve as centralized repositories for managing and manipulating data used by applications, organizations, or individuals. 
+
+Understanding the concept of a database is crucial for anyone working with data-driven applications or systems.
 
 Databases provide a number of advantages in the storage, organization and management of data. The following some of the main ones.
 
@@ -35,7 +39,7 @@ Databases provide a number of advantages in the storage, organization and manage
 
 - Relational Databases (e.g., MySQL, PostgreSQL, Oracle): Organize data into tables with predefined schema and support SQL (Structured Query Language) for querying and manipulation.
 - NoSQL Databases (e.g., MongoDB, Cassandra): Designed to handle unstructured or semi-structured data and provide flexible schema.
-- 
+
 ## Use Cases
 
 - E-commerce: Storing product information, customer details, and order history.
@@ -54,6 +58,7 @@ It acts as an intermediary between the database and the applications or users, p
 
 DBMS provides a set of tools and interfaces for creating, modifying, and querying databases, as well as managing data access, security, backup, and recovery processes. 
 
+## DBMS helps with the DB Schema 
 It handles tasks such as defining the database structure (schema), creating and modifying tables, inserting, updating, and deleting data, and enforcing data integrity rules.
 
 ## Main uses of DBMS
@@ -61,7 +66,10 @@ It handles tasks such as defining the database structure (schema), creating and 
 - Handles tasks such as defining the database structure (schema), creating and modifying tables, inserting, updating, and deleting data, and enforcing data integrity rules.
 
 - Translates high-level queries (e.g., SQL - Structured Query Language) into low-level operations that interact directly with the physical storage of data on disk or in memory.
+
+
 - Manages concurrent access to data, ensuring that multiple users or applications can access and modify data simultaneously without causing conflicts or data corruption.
 
 Popular examples of DBMS include MySQL, PostgreSQL, Oracle, Microsoft SQL Server, and MongoDB.
+
 ```

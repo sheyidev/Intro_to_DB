@@ -1,5 +1,5 @@
 ##
-
+https://www.youtube.com/watch?v=vR5utJvN4JY&t=47s
 ```md
 The objective of this concept is to guide you through integrating Python with MySQL databases using the mysql-connector-python library. 
 
