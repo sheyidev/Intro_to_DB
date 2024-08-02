@@ -22,3 +22,16 @@ CREATE TABLE Customers(
     email VARCHAR(215),
     address TEXT
 );
+
+CREATE TABLE Orders(
+    order_id PRIMARY KEY,
+    order_date DATE,
+    customer_id FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
+
+CREATE TABLE Order_Details(
+    order_detail_id PRIMARY KEY,
+    quantity DOUBLE,
+    order_id FOREIGN KEY (order_id) REFERENCES Orders (order_id),
+    book_id FOREIGN KEY(book_id) REFERENCES Books (book_id)
+);
