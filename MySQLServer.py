@@ -2,7 +2,7 @@ import mysql.connector
 from mysql.connector import errorcode
 def create_database(cursor):
     try:
-        cursor.execute("CREATE DATABASE alx_book_store")
+        cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
         print(f"Database alx_book_store created successfully")
 
     except mysql.connector.Error as err:
