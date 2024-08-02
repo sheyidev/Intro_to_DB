@@ -30,8 +30,8 @@ CREATE TABLE Orders(
 );
 
 CREATE TABLE Order_Details(
-    order_detail_id INT PRIMARY KEY,
+    orderdetailid INT PRIMARY KEY,
     quantity DOUBLE,
-    order_id INT FOREIGN KEY (order_id) REFERENCES Orders (order_id),
-    book_id INT FOREIGN KEY(book_id) REFERENCES Books (book_id)
+    order_id INT FOREIGN KEY (order_id) REFERENCES Orders(order_id),
+    book_id INT FOREIGN KEY(book_id) REFERENCES Books(book_id)
 );
